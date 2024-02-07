@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+}
+#top{
+    position: relative;
+    height: 60%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1490598000245-075175152d25?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: 60% 90%;
+}
+#over-lays{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(133, 130, 130, 0.491);
+}
+#text{
+    /* height: 120px; */
+    display: flex;
+
+    width: 100%;
+    /* background-color: red; */
+    position: absolute;
+    bottom: 20%;
+    
+   
+}
+#text h1{
+    color: #fff;
+    padding: 0 10vw;
+    font-size: 5vw;
+}
+#right-text{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#right-text p{
+    width: 40%;
+}
+#icons{
+    color: #fff;
+    padding: 0 1vw;
+    gap: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#bottom{
+    display: flex;
+    height: 40%;
+    width: 100%;
+    background-color: blue;
+}
+#b1{
+    height: 100%;
+    width: 25%;
+    background-color: #fff;
+}
+#b2{
+    height: 100%;
+    width: 25%;
+    background: url(https://images.unsplash.com/photo-1530933760-343e767695cd?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+#b3{
+    height: 100%;
+    width: 20%;
+    background-color: magenta;
+}
+#b3-top{
+    width: 100%;
+    height: 50%;
+    background-color: orangered;
+}
+#b3-bottom{
+    width: 100%;
+    height: 50%;
+    background: url(https://images.unsplash.com/photo-1698725223016-03479bfd52e4?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: 57% 55%;
+}
+#b4{
+    height: 100%;
+    width: 30%;
+    background-color: black;
+}
